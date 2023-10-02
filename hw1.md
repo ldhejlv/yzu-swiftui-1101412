@@ -7,29 +7,28 @@
     <td>
       ```swift
       
-      import SwiftUI
-      struct ContentView: View {
-          var body: some View {
-              Image("Image")
-                  .resizable()
-                  .aspectRatio(contentMode: .fill)
-                  .overlay( 
-                      Text("原神，啟動！\n我最喜歡玩原神了")
-                          .fontWeight(.heavy)
-                          .lineSpacing(20)
-                          .font(.system(size:32.0))
-                          .foregroundColor(.white)
-                          .frame(width:350,height:150, alignment: .center)
-                          .background(Color.blue)
-                          .cornerRadius(30.0)
-                          .opacity(0.8)
-                      ,
-                      alignment: .bottom
-                  )
-              
-          }
-      }
-
+        import SwiftUI
+        struct ContentView: View {
+            var body: some View {
+                Image("Image")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .overlay( 
+                        Text("原神，啟動！\n我最喜歡玩原神了")
+                            .fontWeight(.heavy)
+                            .lineSpacing(20)
+                            .font(.system(size:32.0))
+                            .foregroundColor(.white)
+                            .frame(width:350,height:150, alignment: .center)
+                            .background(Color.blue)
+                            .cornerRadius(30.0)
+                            .opacity(0.8)
+                        ,
+                        alignment: .bottom
+                    )
+                
+            }
+        }
 
       ```
   </td>
