@@ -5,7 +5,7 @@
       <img src="https://raw.githubusercontent.com/ldhejlv/yzu-swiftui-1101412/main/screenshot 2023-10-02 13.50.01.jpg">
     </td>
     <td>
-      ```
+      ```swift
       
       import SwiftUI
       struct ContentView: View {
@@ -29,8 +29,9 @@
               
           }
       }
-      
+
+
       ```
-    </td>
+  </td>
   </tr>
 </table>
