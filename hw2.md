@@ -10,36 +10,43 @@
         import SwiftUI
 
         struct ContentView: View {
-          var body: some View {
-          Image("IMG_7683")
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .overlay(
-                Image(systemName: "battery.25")
-                    .font(.system(size:40))
-                    .foregroundColor(.black)
-                    .opacity(0.75)
-                    .frame(width:180, height:60, alignment:.centerLastTextBaseline)
-                ,
-                alignment: .topTrailing
-            )
-            .overlay(
-                Text("1101412  李東樺\n月底又要吃土了:(")
-                    .fontWeight(.heavy)
-                    .lineSpacing(15)
-                    .font(.system(size:24))
-                    .foregroundColor(.black)
-                    .frame(width:320, height:100
-                           , alignment:.center)
-                    .background(Color.gray)
-                    .cornerRadius(35)
-                    .opacity(0.85)
-                ,
-                alignment: .bottom
-            )
-        
+          @State var random_num:Int = 0
+          @State var move:String = ""
+          @State var img:String = ""
+          var body: some View{
+          VStack{
+            Image(img)
+                .resizable()
+                .frame(width:300, height:300)
+            Text(String(move))
+                .padding(.all, 10)
+                .font(.system(size:100))
+            Button(action:{
+                 random_num = Int.random(in: 0...2)
+                if(random_num==0){
+                    move = "剪刀"
+                    img = "scissors"
+                }
+                else if(random_num==1){
+                    move = "石頭"
+                    img = "rock"
+                }
+                else{
+                    move = "布"
+                    img = "paper"
+                }
+            }, label:{
+                Text("Go")
+                    .padding(.all, 10)
+                    .font(.system(size:50))
+                    .background(Color.blue)
+                    .foregroundColor(Color.white)
+                    .border(Color.blue, width:5)
+                    .cornerRadius(20)
+            })
         }
-      }
+    }
+}
 
       ```
   </td>
