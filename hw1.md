@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/ldhejlv/yzu-swiftui-1101412/main/hw1_1101412.jpg">
+      <img src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw1_1101412.jpg">
     </td>
     <td>
       ```swift
