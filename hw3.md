@@ -1,8 +1,8 @@
-<h1>hw1</h1>
+<h1>hw3</h1>
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw3_1101412.jpg">
+      <img src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw3_1101412.jpg" style="width: 300px; height: 600px;">
     </td>
     <td>
       ```swift
