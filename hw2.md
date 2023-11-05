@@ -1,5 +1,5 @@
 <h1>hw2</h1>
-<table>
+<table style="width:100%">
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw2_1101412.gif">
