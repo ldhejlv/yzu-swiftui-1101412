@@ -1,11 +1,6 @@
 <h1>hw3</h1>
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw3_1101412.jpg" style="width: 300px; height: 600px;">
-    </td>
-    <td>
-      ```swift
+
+```swift
       
         import SwiftUI
 
@@ -81,7 +76,6 @@
         //    static let screenSize = UIScreen.main.bounds.size
         //}
 
-    ```
-  </td>
-  </tr>
-</table>
+```
+
+<img width="40%" src="https://raw.githubusercontent.com/ldhejlvfl/yzu-swiftui-1101412/main/hw3_1101412.jpg">
